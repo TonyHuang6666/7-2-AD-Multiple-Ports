@@ -1,4 +1,4 @@
-# CMSIS Build CMakeLists generated on 2023-07-30T17:35:10
+# CMSIS Build CMakeLists generated on 2023-07-30T19:43:43
 
 cmake_minimum_required(VERSION 3.22)
 
@@ -6,9 +6,9 @@ cmake_minimum_required(VERSION 3.22)
 
 set(TARGET Project)
 set(CPU Cortex-M3)
-set(PRJ_DIR "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD")
-set(OUT_DIR "D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/out/Project/Target_1")
-set(INT_DIR "D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/tmp/Project/Target_1")
+set(PRJ_DIR "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports")
+set(OUT_DIR "D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/out/Project/Target_1")
+set(INT_DIR "D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/tmp/Project/Target_1")
 set(FPU NO_FPU)
 set(SECURE Non-secure)
 set(BYTE_ORDER Little-endian)
@@ -18,7 +18,7 @@ set(AS_FLAGS_GLOBAL "-masm=auto")
 set(CC_FLAGS_GLOBAL "-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -ffunction-sections -std=c99 -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality")
 set(CXX_FLAGS_GLOBAL "-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -ffunction-sections -std=c99 -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality")
 set(LD_FLAGS_GLOBAL "--map --load_addr_map_info --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers --list --strict --summary_stderr --info summarysizes")
-set(LD_SCRIPT "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Project_Target_1.sct")
+set(LD_SCRIPT "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Project_Target_1.sct")
 
 set(DEFINES
   STM32F10X_MD
@@ -26,51 +26,51 @@ set(DEFINES
 )
 
 set(INC_PATHS
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Start"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/User"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/System"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Hardware"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Start"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/User"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/System"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Hardware"
   "C:/Users/Wendo/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include"
 )
 
 set(AS_ARM_SRC_FILES
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Start/startup_stm32f10x_md.s"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Start/startup_stm32f10x_md.s"
 )
 
 set(CC_SRC_FILES
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Hardware/AD.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Hardware/Key.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Hardware/LED.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Hardware/OLED.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/misc.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_adc.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_bkp.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_can.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_cec.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_crc.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_dac.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_dbgmcu.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_dma.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_exti.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_flash.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_fsmc.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_gpio.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_i2c.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_iwdg.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_pwr.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_rcc.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_rtc.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_sdio.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_spi.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_tim.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_usart.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Library/stm32f10x_wwdg.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Start/core_cm3.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Start/system_stm32f10x.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/System/Delay.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/User/main.c"
-  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/User/stm32f10x_it.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Hardware/AD.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Hardware/Key.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Hardware/LED.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Hardware/OLED.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/misc.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_adc.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_bkp.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_can.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_cec.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_crc.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_dac.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_dbgmcu.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_dma.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_exti.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_flash.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_fsmc.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_gpio.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_i2c.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_iwdg.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_pwr.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_rcc.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_rtc.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_sdio.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_spi.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_tim.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_usart.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Library/stm32f10x_wwdg.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Start/core_cm3.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Start/system_stm32f10x.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/System/Delay.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/User/main.c"
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/User/stm32f10x_it.c"
 )
 
 # Toolchain config map

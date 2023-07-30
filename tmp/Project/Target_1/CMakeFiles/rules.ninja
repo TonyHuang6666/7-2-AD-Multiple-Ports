@@ -35,7 +35,7 @@ rule C_COMPILER__Project_
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__Project_
-  command = cmd.exe /C "$PRE_LINK && C:\Users\Wendo\.vcpkg\artifacts\fd3d78d7\compilers.arm.armclang\6.20.0\bin\armlink.exe --cpu=Cortex-M3 --scatter="d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Project_Target_1.sct"  --map --load_addr_map_info --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers --list --strict --summary_stderr --info summarysizes --debug    $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES $in -o $TARGET_FILE  --list=$TARGET_FILE.map && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\Users\Wendo\.vcpkg\artifacts\fd3d78d7\compilers.arm.armclang\6.20.0\bin\armlink.exe --cpu=Cortex-M3 --scatter="d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/Project_Target_1.sct"  --map --load_addr_map_info --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers --list --strict --summary_stderr --info summarysizes --debug    $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES $in -o $TARGET_FILE  --list=$TARGET_FILE.map && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -52,7 +52,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\Wendo\.vcpkg\artifacts\vcpkg-ce-default\tools.kitware.cmake\3.25.2\bin\cmake.exe --regenerate-during-build -S"D:\OneDrive - email.szu.edu.cn\Codes\Github insiders\Examples\7-1 AD\tmp\Project\Target_1" -B"D:\OneDrive - email.szu.edu.cn\Codes\Github insiders\Examples\7-1 AD\tmp\Project\Target_1"
+  command = C:\Users\Wendo\.vcpkg\artifacts\vcpkg-ce-default\tools.kitware.cmake\3.25.2\bin\cmake.exe --regenerate-during-build -S"D:\OneDrive - email.szu.edu.cn\Codes\Github insiders\Examples\7-2 AD Multiple Ports\tmp\Project\Target_1" -B"D:\OneDrive - email.szu.edu.cn\Codes\Github insiders\Examples\7-2 AD Multiple Ports\tmp\Project\Target_1"
   description = Re-running CMake...
   generator = 1
 

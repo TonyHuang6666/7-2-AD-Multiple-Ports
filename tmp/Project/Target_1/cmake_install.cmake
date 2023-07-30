@@ -1,4 +1,4 @@
-# Install script for directory: D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/tmp/Project/Target_1
+# Install script for directory: D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/tmp/Project/Target_1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/tmp/Project/Target_1/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/tmp/Project/Target_1/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
