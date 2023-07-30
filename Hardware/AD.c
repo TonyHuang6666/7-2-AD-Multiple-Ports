@@ -22,7 +22,7 @@ void AD_Init(void)
     ADC_InitStructure.ADC_Mode = ADC_Mode_Independent;//独立模式
     ADC_InitStructure.ADC_DataAlign = ADC_DataAlign_Right;//右对齐
      ADC_InitStructure.ADC_ExternalTrigConv = ADC_ExternalTrigConv_None;//软件触发转换（不使用外部触发）
-    ADC_InitStructure.ADC_ContinuousConvMode = DISABLE;//单次转换模式
+    ADC_InitStructure.ADC_ContinuousConvMode = ENABLE;//连续转换模式
     ADC_InitStructure.ADC_ScanConvMode = DISABLE;//非扫描模式
     ADC_InitStructure.ADC_NbrOfChannel = 1;//通道数（扫描模式才有用，非扫描只用第一个序列）
     ADC_Init(ADC1, &ADC_InitStructure);//初始化ADC1
@@ -39,14 +39,11 @@ void AD_Init(void)
     {
         ;
     }//等待校准完成
+    ADC_SoftwareStartConvCmd(ADC1, ENABLE);//软件触发转换
 }
 
 uint16_t Get_Outcome(void)
-{
-    ADC_SoftwareStartConvCmd(ADC1, ENABLE);//软件触发转换
-    while (ADC_GetFlagStatus(ADC1, ADC_IT_EOC)==RESET)//等待转换完成
-    {
+{ 
         return ADC_GetConversionValue(ADC1);//读取转换结果时，会自动清除转换完成标志位EOC
-    }
     //等待时间的计算：采样周期55.5个，转换周期12.5个，总共68个周期，即68个周期/12MHz=5.6us
 }
