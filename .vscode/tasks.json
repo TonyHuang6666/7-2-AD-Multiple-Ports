@@ -1,0 +1,55 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMSIS Build",
+            "type": "cmsis-csolution.build",
+            "solution": "${command:cmsis-csolution.getSolutionPath}",
+            "project": "${command:cmsis-csolution.getProjectPath}",
+            "buildType": "${command:cmsis-csolution.getBuildType}",
+            "targetType": "${command:cmsis-csolution.getTargetType}",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Flash Device",
+            "type": "embedded-debug.flash",
+            "program": "${command:embedded-debug.getApplicationFile}",
+            "serialNumber": "${command:device-manager.getSerialNumber}",
+            "cmsisPack": "${command:device-manager.getDevicePack}",
+            "problemMatcher": [],
+            "dependsOn": "CMSIS Build"
+        },
+        {
+            "type": "embedded-debug.arm-flash",
+            "serialNumber": "${command:device-manager.getSerialNumber}",
+            "program": "${command:embedded-debug.getApplicationFile}",
+            "cmsisPack": "${command:device-manager.getDevicePack}",
+            "problemMatcher": [],
+            "label": "embedded-debug.arm-flash: Flash Device (Arm Debugger)"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe 生成活动文件",
+            "command": "C:\\msys64\\mingw64\\bin\\gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "调试器生成的任务。"
+        }
+    ]
+}
