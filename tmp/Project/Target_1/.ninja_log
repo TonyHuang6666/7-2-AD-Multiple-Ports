@@ -13,7 +13,7 @@
 427	986	7124206285632724	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-2_AD_Multiple_Ports/Start/startup_stm32f10x_md.o	46ce2f5ddef56958
 1861	2280	7124206298479015	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-2_AD_Multiple_Ports/System/Delay.o	aa681b83c97ef226
 339	1068	7124206286372039	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-2_AD_Multiple_Ports/Library/stm32f10x_can.o	4d2343da963872a3
-2487	2624	7124206302619371	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/out/Project/Target_1/Project.axf	3a1a96a96449707f
+152	260	7124218809492929	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/out/Project/Target_1/Project.axf	3a1a96a96449707f
 616	1078	7124206286614732	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-2_AD_Multiple_Ports/Library/stm32f10x_dac.o	112517cf4f25d61d
 575	1088	7124206286854764	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-2_AD_Multiple_Ports/Library/stm32f10x_dma.o	61b5e3c07bd2e82
 784	1270	7124206288964271	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-2_AD_Multiple_Ports/Library/stm32f10x_exti.o	deb56afd51c050c2
@@ -28,10 +28,10 @@
 1338	1825	7124206294433732	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-2_AD_Multiple_Ports/Library/stm32f10x_spi.o	89586d204439d9b
 1271	1860	7124206294923707	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-2_AD_Multiple_Ports/Library/stm32f10x_rcc.o	a75dc6dac4d5b010
 1713	2149	7124206297748829	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-2_AD_Multiple_Ports/Start/core_cm3.o	4eb043a05bd0627
-1570	2177	7124206298053787	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-2_AD_Multiple_Ports/User/main.o	5914a9039ba6a23c
+4	151	7124218808372175	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-2_AD_Multiple_Ports/User/main.o	5914a9039ba6a23c
 1520	2279	7124206298419061	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-2_AD_Multiple_Ports/Library/stm32f10x_usart.o	a1229b5a4563dba4
 1826	2295	7124206299137744	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-2_AD_Multiple_Ports/Library/stm32f10x_wwdg.o	5d355531e7aed327
 2069	2421	7124206300562978	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-2_AD_Multiple_Ports/User/stm32f10x_it.o	f5d5db48f1162037
 1531	2487	7124206301176663	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-2_AD_Multiple_Ports/Library/stm32f10x_tim.o	d5f45cff2463834
-3	171	7124212520174658	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-2_AD_Multiple_Ports/User/main.o	5914a9039ba6a23c
-171	282	7124212521306221	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/out/Project/Target_1/Project.axf	3a1a96a96449707f
+3	152	7124221170981791	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/7-2_AD_Multiple_Ports/User/main.o	5914a9039ba6a23c
+153	258	7124221172075036	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/out/Project/Target_1/Project.axf	3a1a96a96449707f

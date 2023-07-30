@@ -9,8 +9,8 @@ int main(void)
 	OLED_Init();
 	AD_Init();
 	OLED_ShowString(1,1,"V Outcome:");
-	OLED_ShowString(2,1,"R Outcome:");
-	OLED_ShowString(3,1,"L Outcome:");
+	OLED_ShowString(2,1,"L Outcome:");
+	OLED_ShowString(3,1,"R Outcome:");
 	OLED_ShowString(4,1,"T Outcome:");
 	while (1)
 	{
@@ -18,6 +18,11 @@ int main(void)
 		R_Outcome=Get_Outcome(ADC_Channel_1);
 		L_Outcome=Get_Outcome(ADC_Channel_2);
 		T_Outcome=Get_Outcome(ADC_Channel_3);
+		OLED_ShowNum(1,11,V_Outcome,4);
+		OLED_ShowNum(2,11,L_Outcome,4);
+		OLED_ShowNum(3,11,R_Outcome,4);
+		OLED_ShowNum(4,11,T_Outcome,4);
+		Delay_ms(100);
 	}
 }
 /*如果要避免由于波动导致AD值在判断阈值附近抖动进而影响输出，可迟滞比较。
