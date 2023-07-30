@@ -1,4 +1,4 @@
-# CMSIS Build CMakeLists generated on 2023-07-30T12:50:34
+# CMSIS Build CMakeLists generated on 2023-07-30T17:18:38
 
 cmake_minimum_required(VERSION 3.22)
 
@@ -39,6 +39,7 @@ set(AS_ARM_SRC_FILES
 )
 
 set(CC_SRC_FILES
+  "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Hardware/AD.c"
   "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Hardware/Key.c"
   "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Hardware/LED.c"
   "d:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/Hardware/OLED.c"

@@ -71,6 +71,8 @@ project:
         - file: Hardware/OLED.c
         - file: Hardware/OLED.h
         - file: Hardware/OLED_Font.h
+        - file: Hardware/AD.c
+        - file: Hardware/AD.h
     - group: User
       files:
         - file: User/main.c

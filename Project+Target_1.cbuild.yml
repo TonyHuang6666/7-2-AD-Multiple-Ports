@@ -219,6 +219,10 @@ build:
           category: header
         - file: Hardware/OLED_Font.h
           category: header
+        - file: Hardware/AD.c
+          category: sourceC
+        - file: Hardware/AD.h
+          category: header
     - group: User
       files:
         - file: User/main.c
