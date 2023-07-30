@@ -5,10 +5,10 @@
 int main(void)
 {
 	OLED_Init();
-	OLED_ShowString(1, 3, "Hello VS Code!");
-	
+	AD_Init();
+	OLED_ShowString(1,1,"AD Outcome:");
 	while (1)
 	{
-		
+		OLED_ShowNum(1,12,Get_Outcome(),4);
 	}
 }

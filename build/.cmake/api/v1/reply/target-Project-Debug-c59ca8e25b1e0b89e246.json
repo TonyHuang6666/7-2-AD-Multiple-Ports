@@ -82,7 +82,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-mcpu=Cortex-M3 -mfpu=none -mlittle-endian -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER   -g -Oz   --target=arm-arm-none-eabi -c -fno-rtti -funsigned-char -fshort-enums -fshort-wchar -ffunction-sections -std=c99 -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -isystem \"c:/Users/Wendo/.vcpkg/artifacts/fd3d78d7/compilers.arm.armclang/6.20.0/include\" "
+					"fragment" : "-mcpu=Cortex-M3 -mfpu=none -mlittle-endian -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER   -g -Oz   --target=arm-arm-none-eabi -c -fno-rtti -funsigned-char -fshort-enums -fshort-wchar -ffunction-sections -std=c99 -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -isystem \"c:/Users/Wendo/.vcpkg/artifacts/fd3d78d7/compilers.arm.armclang/6.20.0/include\"  -g"
 				}
 			],
 			"includes" : 
@@ -155,7 +155,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-mcpu=Cortex-M3 -mfpu=none -mlittle-endian -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER   -g -Oz   --target=arm-arm-none-eabi -c -fno-rtti -funsigned-char -fshort-enums -fshort-wchar -ffunction-sections -std=c99 -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -isystem \"c:/Users/Wendo/.vcpkg/artifacts/fd3d78d7/compilers.arm.armclang/6.20.0/include\"",
+				"fragment" : "-mcpu=Cortex-M3 -mfpu=none -mlittle-endian -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER   -g -Oz   --target=arm-arm-none-eabi -c -fno-rtti -funsigned-char -fshort-enums -fshort-wchar -ffunction-sections -std=c99 -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -isystem \"c:/Users/Wendo/.vcpkg/artifacts/fd3d78d7/compilers.arm.armclang/6.20.0/include\"  -g",
 				"role" : "flags"
 			},
 			{
