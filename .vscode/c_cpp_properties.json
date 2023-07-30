@@ -3,11 +3,11 @@
         {
             "name": "Target 1",
             "includePath": [
-                "d:\\OneDrive - email.szu.edu.cn\\Codes\\Github insiders\\Examples\\7-1 AD\\Start",
-                "d:\\OneDrive - email.szu.edu.cn\\Codes\\Github insiders\\Examples\\7-1 AD\\Library",
-                "d:\\OneDrive - email.szu.edu.cn\\Codes\\Github insiders\\Examples\\7-1 AD\\User",
-                "d:\\OneDrive - email.szu.edu.cn\\Codes\\Github insiders\\Examples\\7-1 AD\\System",
-                "d:\\OneDrive - email.szu.edu.cn\\Codes\\Github insiders\\Examples\\7-1 AD\\Hardware"
+                "d:\\OneDrive - email.szu.edu.cn\\Codes\\Github insiders\\Examples\\7-2 AD Multiple Ports\\Start",
+                "d:\\OneDrive - email.szu.edu.cn\\Codes\\Github insiders\\Examples\\7-2 AD Multiple Ports\\Library",
+                "d:\\OneDrive - email.szu.edu.cn\\Codes\\Github insiders\\Examples\\7-2 AD Multiple Ports\\User",
+                "d:\\OneDrive - email.szu.edu.cn\\Codes\\Github insiders\\Examples\\7-2 AD Multiple Ports\\System",
+                "d:\\OneDrive - email.szu.edu.cn\\Codes\\Github insiders\\Examples\\7-2 AD Multiple Ports\\Hardware"
             ],
             "defines": [
                 "USE_STDPERIPH_DRIVER",

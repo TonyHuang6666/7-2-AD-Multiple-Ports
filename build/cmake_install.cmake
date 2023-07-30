@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-1 AD/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/7-2 AD Multiple Ports/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
