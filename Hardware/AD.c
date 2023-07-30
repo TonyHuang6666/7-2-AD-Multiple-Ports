@@ -44,10 +44,9 @@ void AD_Init(void)
 uint16_t Get_Outcome(void)
 {
     ADC_SoftwareStartConvCmd(ADC1, ENABLE);//软件触发转换
-    while (ADC_GetFlagStatus(ADC1, ADC_IT_EOC)==RESET)//等待转换完成
+    while (ADC_GetFlagStatus(ADC1, ADC_IT_EOC)==SET)//等待转换完成
     {
-        ;
+        return ADC_GetConversionValue(ADC1);//读取转换结果时，会自动清除转换完成标志位EOC
     }
     //等待时间的计算：采样周期55.5个，转换周期12.5个，总共68个周期，即68个周期/12MHz=5.6us
-    return ADC_GetConversionValue(ADC1);//读取转换结果时，会自动清除转换完成标志位EOC
 }
