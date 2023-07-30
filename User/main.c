@@ -3,15 +3,21 @@
 #include "OLED.h"
 #include "AD.h"
 
-float Voltage;
+uint16_t V_Outcome,R_Outcome,L_Outcome,T_Outcome;
 int main(void)
 {
 	OLED_Init();
 	AD_Init();
-	OLED_ShowString(1,1,"AD Outcome:");
+	OLED_ShowString(1,1,"V Outcome:");
+	OLED_ShowString(2,1,"R Outcome:");
+	OLED_ShowString(3,1,"L Outcome:");
+	OLED_ShowString(4,1,"T Outcome:");
 	while (1)
 	{
-		
+		V_Outcome=Get_Outcome(ADC_Channel_0);
+		R_Outcome=Get_Outcome(ADC_Channel_1);
+		L_Outcome=Get_Outcome(ADC_Channel_2);
+		T_Outcome=Get_Outcome(ADC_Channel_3);
 	}
 }
 /*如果要避免由于波动导致AD值在判断阈值附近抖动进而影响输出，可迟滞比较。
